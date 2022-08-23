@@ -3,8 +3,10 @@
         background-color: rgb(201, 0, 0);
         color: white;
         border: none;
-        height: 36px;
-        width: 105px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-radius: 4px;
         cursor: pointer;
         margin-right: 8px;
@@ -25,11 +27,11 @@
         border-style: solid;
         border-width: 1px;
         color: rgb(41, 118, 211);
-        height: 36px;
-        width: 62px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-radius: 4px;
         cursor: pointer;
-        transition: background-color 0.5s, color 0.5s;
+        transition: background-color 0.2s, color 0.2s;
     }
 
     .join-button:hover{
@@ -51,14 +53,19 @@
         cursor: pointer;
         font-weight: bold;
         margin-left: 8px;
+        transition: box-shadow 0.15s;
+    }
+
+    .tweet-button:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     }
 </style>
 
 <button class="subscribe-button">SUBSCRIBE</button>
 
-<button class="join-button">JOIN</button>
+<button class="join-button">JOIN My Channel</button>
 
 <button class="tweet-button">Tweet</button>
 
-<!--Twitter button next-->
+<!--Padding is a better alternative to setting the height and width-->
 <!--subscribe-button:hover is a pseudoclass-->
