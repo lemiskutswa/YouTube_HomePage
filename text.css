@@ -1,5 +1,5 @@
 p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -28,10 +28,30 @@ p{
     font-size: 14px;
     width: 300px;
     line-height: 22px;
+    margin-bottom: 80px;
 }
 
+.apple-text{
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(227, 65, 64);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.shop-now{
+    cursor: pointer;
+}
+
+.shop-now:hover{
+    text-decoration-line: underline;
+    transition: text-decoration-line 0.5s;
+}
 /*A selector that is more specific is given priority.
 For example class and ID are prioritized over element selectors. 
 
 This is called CSS Specificity
+
+- Text element is an element inside text (should be the name of the commit). 
 */
