@@ -7,3 +7,22 @@
 .video-author{
     display: block;
 }
+
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.search-bar{
+    display: block;
+}
+
+.youtube-music{
+    width: 200px;
+    color: #fff;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
