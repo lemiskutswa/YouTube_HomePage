@@ -19,10 +19,17 @@
     display: block;
 }
 
-.youtube-music{
+.channel-image{
+    display: inline-block;
+    width: 50px;
+}
+
+.video-details{
+    display: inline-block;
+    font-size: 15px;
     width: 200px;
-    color: #fff;
-    background-color: black;
-    padding-left: 10px;
-    padding-right: 10px;
+}
+
+.profile-picture{
+    width: 100%;
 }
