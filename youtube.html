@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube</title>
     <link rel="stylesheet" href="youtube.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,18 +18,18 @@
 
     <div class="video-preview">
 
-        <div>
+        <div class="thumbnail-row">
             <img class="thumbnail-1" src="thumbnails/thumbnail-1.webp" alt="marques-brownlee">
         </div>
 
         <div>
-            
+
             <div class="channel-image">
                 <img class="profile-picture" src="channel-pictures/brownlee.jpeg" alt="brownlee">
             </div>
 
             <div class="video-details">
-                <p>Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
                 <p class="video-author">Marques Brownlee</p>
                 <p class="video-stats">3.4M views &#183 6 months ago</p>
             </div>
@@ -56,4 +59,6 @@
 - By default div is a block element
 
 - Divs by default have a width of 100%, so to appear in the same line, reduce the width. 
+
+- Put up a font stack for when Google somehow fails to load a given font 
 -->
