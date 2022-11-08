@@ -31,16 +31,19 @@ p {
     display: block;
 }
 
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
 .channel-image{
-    display: inline-block;
-    width: 40px;
-    vertical-align: top;
+    background-color: aquamarine;
+
 }
 
 .video-details{
-    display: inline-block;
     font-size: 15px;
-    width: 200px;
+    background-color: antiquewhite;
 }
 
 .profile-picture{

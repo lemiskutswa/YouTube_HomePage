@@ -13,24 +13,44 @@
         display: grid;
         grid-template-columns: 100px 100px;
         ">
-        <div style="background-color: gray;">div 1</div>
-        <div style="background-color: pink;">div 2 <p>strong</p>
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: lightcoral;">div 2<p>text</p>
         </div>
     </div>
 
     <div style="
         margin-top: 20px;
-
         display: grid;
         grid-template-columns: 100px 100px 200px;
         ">
-            <div style="background-color: gray;">100px</div>
-            <div style="background-color: pink;">100px <p>strong</p>
-        </div>
-        <div style="background-color: teal;">200px</div>
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: lightcoral;">100px<p>text</p>
+            </div>
+            <div style="background-color: rgb(128, 240, 147);">200px<p>text</p></div> 
     </div>
-    
+
+
+    <div style="
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    ">
+    <div style="background-color: lightblue;">div 1</div>
+    <div style="background-color: lightcoral;">div 2<p>text</p>
+    </div>
+
+    <div style="background-color: rgb(128, 240, 156);">div 2<p>text</p>
+    </div>
+
+</div>
+
 
 </body>
 
 </html>
+
+<!--
+    - 1 fr + 1fr share the remaining free space equally. 
+    - Grid follows the format of row X column 
+    - 1st display: grid; next set the column and rows
+-->
