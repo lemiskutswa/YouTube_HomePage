@@ -6,27 +6,95 @@
 }
 
 .left-section{
-    background-color: aquamarine;
-    width: 150px;
     display: flex;
     align-items: center;
 }
 
+.search-button{
+    height: 40px;
+    width: 60px;
+}
+
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+
 .middle-section{
-    background-color: lightpink;
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 12px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 3px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.searchbar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+
+}
+
+.search-icon{
+    height: 25px;
+    margin-top: 6px;
+}
+
+.search-button{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 4px;
+    margin-left: -4px;
+}
+
+.voice-search-button{
+    margin-left: 10px;
+    border-color: gray;
+    border-style: none;
+    border-width: 1px;
+}
+
+.voice-search-icon{
+    height: 25px;
 }
 
 .right-section{
     background-color: aqua;
     width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.youtube-apps-icon{
+    height: 28px;
+}
+
+.notifications-icon{
+   height: 28px;
+}
+
+.my-channel-icon{
+   height: 28px;
 }
 
 .hamburger-menu{
-    height: 20px;
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
 }
 
 .youtube-logo{

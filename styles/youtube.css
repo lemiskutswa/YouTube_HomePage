@@ -13,9 +13,6 @@
     color:rgb(96, 96, 96)
 }
 
-
-
-
 .video-info-grid{
     display: grid;
     grid-template-columns: 40px 1fr;
@@ -44,7 +41,7 @@
 
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
 }
