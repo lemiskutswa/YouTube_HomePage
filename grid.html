@@ -1,83 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Practice</title>
+    <title>Document</title>
 </head>
-
-<body style="padding-bottom: 1000px;">
-    <div style="
-        display: grid;
-        grid-template-columns: 100px 100px;
-        ">
-        <div style="background-color: lightblue;">div 1</div>
-        <div style="background-color: lightcoral;">div 2<p>text</p>
+<body>
+    <div class="container">
+        <div id="channel-pic">
+            <img src="icons/my-channel.jpeg" alt="">
+        </div>
+        <div class="tweet-details">
+            <div class="user">
+                <div id="username">supersimpledev</div>
+                <div id="user-handle">@Supersimpledev</div>
+            </div>
+    
+            <div id="tweet-content">Check out my HTML and CSS beginners course on youtube!</div>
+    
+            <div id="youtube-link">youtube.com/supersimpledev/HTML</div>
         </div>
     </div>
-
-    <div style="
-        margin-top: 20px;
-        display: grid;
-        grid-template-columns: 100px 100px 200px;
-        ">
-        <div style="background-color: lightblue;">100px</div>
-        <div style="background-color: lightcoral;">100px<p>text</p>
-        </div>
-        <div style="background-color: rgb(128, 240, 147);">200px<p>text</p>
-        </div>
-    </div>
-
-
-    <div style="
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 100px 1fr 2fr;
-    ">
-        <div style="background-color: lightblue;">div 1</div>
-        <div style="background-color: lightcoral;">1fr
-        </div>
-
-        <div style="background-color: rgb(128, 240, 156);">2fr
-        </div>
-
-    </div>
-
-    <div style="
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 300px;
-
-    column-gap: 20px;
-    row-gap: 40px;
-    ">
-        <div style="background-color: lightblue;">1fr</div>
-        <div style="background-color: lightcoral;">1fr
-        </div>
-
-        <div style="background-color: rgb(128, 240, 156);">1fr
-        </div>
-
-        <div style="background-color: lightcoral;">1fr
-        </div>
-
-        <div style="background-color: rgb(128, 240, 156);">1fr
-        </div>
-
-        <div style="background-color: lightblue;">1fr</div>
-
-    </div>
-
 
 </body>
 
-</html>
+<style>
+    .container{
+        width: 400px;
+        font-size: 0.9em;
+        display: flex;
+    }
+    .user{
+        display: flex;
+    }
 
-<!--
-    - 1 fr + 1fr share the remaining free space equally. 
-    - Grid follows the format of row X column 
-    - 1st display: grid; next set the column and rows
--->
+    .tweet-details{
+        margin-left: 20px;
+    }
+
+    #user-handle{
+        color: gray;
+    }
+
+    #tweet-content{
+        
+    }
+</style>
+</html>

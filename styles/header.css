@@ -40,6 +40,7 @@
     border-color: rgb(192, 192, 192);
     border-radius: 3px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
 }
 
 .searchbar::placeholder{
@@ -73,10 +74,13 @@
 }
 
 .right-section{
-    background-color: aqua;
     width: 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    margin-right: 20px;
+    flex-shrink: 0;
 }
 
 .youtube-apps-icon{
@@ -89,6 +93,7 @@
 
 .my-channel-icon{
    height: 28px;
+   border-radius: 16px;
 }
 
 .hamburger-menu{
