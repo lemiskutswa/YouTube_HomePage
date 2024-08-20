@@ -2,6 +2,11 @@ import React from 'react'
 
 export default function Sidebar() {
     return (
-        <div>Hello World</div>
+        <section className="sidebar">
+            <div>Home</div>
+            <div>Shorts</div>
+            <div>Subscriptions</div>
+            <div>You</div>
+        </section>
     )
 }

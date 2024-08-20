@@ -1,0 +1,146 @@
+/*------GENERAL----*/
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.body{
+  margin: 0;
+  padding-top: 80px;
+}
+
+/*------HEADER-----*/
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(190, 190, 190);
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 20px;
+}
+
+.youtube-logo{
+  height: 20px;
+}
+
+.middle-section{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar{
+  flex: 1;
+  height: 35px;
+  padding-left: 12px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 20px 0 0 20px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 100;
+}
+
+.searchbar::placeholder{
+  font-family: Roboto, Arial;
+  font-size: 16px;
+
+}
+
+.search-icon{
+  height: 25px;
+  margin-top: 6px;
+}
+
+.search-button{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 0 25px 25px 0;
+  margin-left: -4px;
+  cursor: pointer;
+}
+
+.voice-search{
+  display: flex;
+  flex-direction: column;
+}
+.voice-search-button{
+  margin-left: 10px;
+  border-color: gray;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 35px;
+}
+
+.voice-search-hover{
+  background-color: aqua;
+  display: inline-block;
+}
+
+.voice-search-icon{
+  height: 25px;
+}
+
+.right-section{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.upload-button{
+  height: 28px;
+}
+
+.notifications-icon{
+  height: 28px;
+}
+
+.my-channel-icon{
+  height: 28px;
+  border-radius: 16px;
+}
+/*------SIDEBAR-----*/
+
+.sidebar{
+  margin-top: 5%;
+  width: 60px;
+  background-color: aqua;
+  font-size: 10px;
+  font-family: Roboto, Arial;
+}
+
+.sidebar > div{
+  padding: 20px;
+  text-align: center;
+}
+
+/*------BODY-----*/
