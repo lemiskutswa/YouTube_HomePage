@@ -131,16 +131,28 @@ p {
 /*------SIDEBAR-----*/
 
 .sidebar{
-  margin-top: 5%;
+  margin-top: 60px;
   width: 60px;
-  background-color: aqua;
   font-size: 10px;
   font-family: Roboto, Arial;
+  background-color: aqua;
+  bottom: 0;
 }
 
 .sidebar > div{
   padding: 20px;
-  text-align: center;
+}
+
+.sidebar-icons{
+  height: 25px;
+  width: 25px;
 }
 
 /*------BODY-----*/
+
+.videos-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 60px;
+  margin-left: 10px;
+}
